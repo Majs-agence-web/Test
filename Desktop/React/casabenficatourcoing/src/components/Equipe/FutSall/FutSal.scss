@@ -1,0 +1,39 @@
+.fondImage{
+    background-image: url('./Image/Terrain.png');
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+
+.hauteurDiv{
+    height: 700px;
+}
+
+@media (max-width: 1024px) {
+    .hauteurDiv{
+        height: 500px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .TailleJoueur{
+        height: 80%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .TailleJoueur{
+        height: 60%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .TailleJoueur{
+        height: 55%;
+    }
+
+    .hauteurDiv{
+        height: 700px;
+    }
+}

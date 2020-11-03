@@ -1,0 +1,74 @@
+
+$Gris: #66666E;
+$Rouge: #B60D17;
+$Jaune: #FFEB32;
+$Grey : #C2C2C2;
+
+.fondNavbar{
+    background-color: $Rouge;
+}
+.fondMenu{
+    background-color: black;
+}
+
+.titre{
+    color:white;
+    font-family: Rubik;
+    text-align: left;
+    font-size: 2.9vw;
+}
+.devise{
+    color: #FFEB32;
+    font-family: Rubik;
+    
+    text-align-last: center;
+    font-size: 1.9vw;
+   
+}
+
+.couronne{
+    width: 1.5em;
+}
+
+.LogoBenfica{
+    width: 4.5em;
+}
+
+.LogoCasa{
+    width: 8em;
+}
+
+.numero{
+    font-family: Rubik;
+    color:white;
+    // font-weight: bold;
+    font-size: 1.9vw;
+}
+
+.dropdown .dropdown-menu.show {
+    background-color: $Rouge;
+    text-decoration: $Jaune;
+    
+}
+
+.dropdown-menu a{
+    color: white;
+    
+    border-left: 7px solid transparent;
+
+}
+.dropdown-menu a:hover{
+    background-color: $Rouge;
+    border-left: 7px 
+    solid $Jaune;
+}
+
+.souligner {
+    text-decoration: none !important;
+    border-bottom: 4px solid transparent;
+
+}
+
+.souligner:hover{
+    border-bottom: 4px solid $Jaune;
+}

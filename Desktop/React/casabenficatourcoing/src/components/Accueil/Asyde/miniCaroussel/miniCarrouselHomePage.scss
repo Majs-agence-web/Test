@@ -1,0 +1,27 @@
+$Gris: #66666E;
+$Rouge: #B60D17;
+$Jaune: #FFEB32;
+$Blanc: #fff;
+$Noir: #000;
+
+// SCSS Asyde //
+
+.tailleIcon{
+    height: 35px;
+    width: auto;
+}
+
+
+@media (max-width: 900px) { 
+    .TEST{
+        width: 10% !important;
+    }
+
+    .SALUT{
+        font-size: 200;
+    }
+ }
+
+
+
+//SCSS Fin Asyde //

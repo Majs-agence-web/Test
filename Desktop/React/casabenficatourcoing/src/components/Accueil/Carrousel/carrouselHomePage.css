@@ -1,0 +1,62 @@
+.divBox {
+  position: absolute;
+  left: 2%;
+  width: 100%;
+  bottom: 15px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.boxMotCle {
+  padding: 0px 20px;
+  display: inline;
+  background-color: rgba(182, 13, 23, 0.7);
+  color: #fff;
+  font-size: 150%;
+  margin-right: 1%;
+}
+
+.boxTitre {
+  padding: 0px 20px;
+  display: inline;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+  font-size: 200%;
+  margin-top: 1%;
+}
+
+.espacement {
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .boxTitre {
+    font-size: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .boxMotCle {
+    font-size: 100%;
+    text-align: center;
+  }
+}
+
+.buttonColor button {
+  background-color: #B60D17;
+}
+
+.buttonColorJaune button {
+  background-color: #FFEB32;
+}
+
+.fondTest {
+  background-color: #66666E;
+}
+
+.boxAsydeMiniCarrousel {
+  background-color: #fff;
+}
+/*# sourceMappingURL=carrouselHomePage.css.map */

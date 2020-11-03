@@ -1,0 +1,91 @@
+$Gris: #66666E;
+$Rouge: #B60D17;
+$Jaune: #FFEB32;
+$Grey : #E2E2E2;
+
+.backgroundNomEquipe{
+    background-image: url(./images/ballonCalendrier.png);
+    background-repeat: no-repeat;
+    background-size: 14em;
+    background-position-x: center;    
+}
+
+.separationLigne{
+    background-image: url(./images/ballonCalendrier.png);
+    background-repeat: no-repeat;
+    background-size: 14em;
+    background-position-x: center;
+    border-right:#B60D17 dashed 3px;
+}
+
+.nomEquipe{    
+    font-size: 1.5em;
+}
+
+@media (max-width: 991.98px) { 
+    .separationLigne{
+        border-bottom:#B60D17 dashed 3px;
+        border-right:none;
+        margin-bottom: 2em;           
+    }
+ 
+
+}
+
+@media (max-width: 767.98px) {
+    .logoEquipe{
+        width: 2em;
+    }
+    .heureMatch{
+        font-size: 0.5em;
+        text-align: center;        
+    }
+    .nomEquipe{
+        font-size: 1em;
+    }
+}
+
+
+.sousTitre{
+    color: black;
+    font-size: 2em;
+}
+
+.carteScore{
+    background-color: #2B2B2B;
+    border-radius: 20px;
+}
+
+.texteCarteScore{
+    color:white;
+    font-size: 2em;
+    width: 100%;
+}
+
+.titreCarteScore{
+    color:white;
+    font-size: 0.8em;
+}
+
+.titreSorePadding{
+    margin-bottom: 0.2em;
+}
+
+.Calendrier {
+    font-size: 1.6em;        
+}
+
+.dateCalendrier{
+    color: $Rouge;
+    margin: 0px;
+}
+
+.carteCalendrier{
+    background-color: white;
+    border-radius: 15px;
+    border: $Gris solid 1px;
+}
+
+.nomEquipeCalendrier{
+    font-size: 1.4em; 
+}

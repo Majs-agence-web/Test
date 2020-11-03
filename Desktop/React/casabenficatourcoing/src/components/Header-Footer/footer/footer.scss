@@ -1,0 +1,96 @@
+$Gris: #66666E;
+$Rouge: #B60D17;
+$Jaune: #FFEB32;
+$Grey : #E2E2E2;
+
+.fondFooter {
+    background-color: $Gris;
+    border-top: $Jaune solid 5px;
+}
+
+.Eusebio{
+    width: 80%;
+    float: left;
+    }
+
+.Panthere{
+    background-image:url("./Logos/Panthere.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;    
+}
+
+.Contact{
+    float: right;
+}
+
+.LogosSponsors{
+    height: 5em;
+}
+
+.Services, .Contact{
+    text-align: left;
+    }
+ 
+
+@media (max-width: 767.98px) { 
+    .Eusebio{
+        float: none;
+    }
+    .Panthere{
+        display: none;
+    }
+
+    .LogosSponsors{
+        height: 4em;
+        }
+    .Services, .Contact{
+        text-align: center;
+        }
+}
+
+@media (max-width: 991.98px) { 
+    .Eusebio{
+        float: none;
+        width: 20%;
+    }
+    .Panthere{
+        background-size: 100%;
+    }
+
+    .fondFooter{
+        text-align: center;
+    }
+
+    .LogosSponsors{
+        height: 4em;
+    }
+    .Services, .Contact{
+        text-align: center;
+        }
+
+    .fontSizeMail h6{
+        font-size: 0.9em;
+    }
+}
+
+.Meo, .BenficaTV {
+    height: 1.2em;
+}
+
+.Services, .Contact{
+    color:white;
+        h4{
+            color:White;
+            font-weight: bold;
+        }
+        h6{
+            color:$Grey;
+        }
+                
+    }
+
+.RestaurantSnackCommandes{
+    color: $Grey;
+}
+

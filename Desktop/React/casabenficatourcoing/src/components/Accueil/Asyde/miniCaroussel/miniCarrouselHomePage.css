@@ -1,0 +1,22 @@
+.tailleIcon {
+  height: 35px;
+  width: auto;
+}
+
+@media (max-width: 991px) { 
+  .HauteurPhoto{
+      width: 75% !important;
+  }
+}
+
+@media (max-width: 575px) { 
+  .HauteurPhoto{
+      width: 65% !important;
+  }
+
+  @media (max-width: 450px) { 
+    .HauteurPhoto{
+        width: 80% !important;
+    }
+  }
+}

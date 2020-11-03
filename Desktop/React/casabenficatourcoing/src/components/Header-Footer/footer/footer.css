@@ -1,0 +1,64 @@
+.fondFooter {
+  background-color: #66666E;
+}
+
+.Eusebio {
+  width: 80%;
+  float: left;
+}
+
+.Panthere {
+  background-image: url("./Logos/Panthere.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left;
+}
+
+.Contact {
+  float: right;
+}
+
+@media (max-width: 767.98px) {
+  .Eusebio {
+    float: none;
+  }
+  .Panthere {
+    background-size: 50%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .Eusebio {
+    float: none;
+    width: 20%;
+  }
+  .Panthere {
+    background-size: 100%;
+  }
+}
+
+.Meo, .BenficaTV {
+  height: 1.2em;
+}
+
+.Services, .Contact {
+  color: white;
+}
+
+.Services h4, .Contact h4 {
+  color: White;
+  font-weight: bold;
+}
+
+.Services h6, .Contact h6 {
+  color: #C2C2C2;
+}
+
+.RestaurantSnackCommandes {
+  color: #C2C2C2;
+}
+
+.LogosSponsors {
+  height: 4em;
+}
+/*# sourceMappingURL=footer.css.map */

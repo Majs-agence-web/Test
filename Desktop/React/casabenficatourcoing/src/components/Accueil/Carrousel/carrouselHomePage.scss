@@ -1,0 +1,87 @@
+$Gris: #66666E;
+$Rouge: #B60D17;
+$Jaune: #FFEB32;
+$Blanc: #fff;
+$Noir: #000;
+
+// SCSS Carrousel //
+.divBox{
+    position: absolute;
+
+ 
+    left: 2%;
+    width: 100%;
+    bottom: 15px;
+
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.boxMotCle {
+    padding: 0px 20px;
+
+    display: inline;
+    background-color: rgba(#B60D17,0.7);
+    color: $Blanc;
+    font-size: 150%;
+    margin-right: 1%;
+}
+
+
+.boxTitre{
+    padding: 0px 20px;
+    display: inline;
+    background-color: rgba($Blanc,0.7);
+    color: $Noir;
+    font-size: 200%;
+    margin-top: 1%;
+}
+
+.espacement{
+    margin-top: 10px;
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 991px) { 
+    .boxTitre{
+        font-size: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 991px) { 
+    .boxMotCle{
+        font-size: 100%;
+        text-align: center;
+    }
+
+ }
+
+// Fin SCSS Caroussel //
+
+// SCSS Modal Home Page //
+
+.buttonColor button{
+    background-color: $Rouge;
+}
+
+.buttonColorJaune button{
+    background-color: $Jaune;
+}
+
+// Fin SCSS Modal Home Page // 
+
+// SCSS Mini Carrousel Home Page//
+
+.fondTest{
+    background-color: $Gris;
+}
+
+.boxAsydeMiniCarrousel{
+    background-color: $Blanc;
+}
+
+// Fin SCSS Mini Carrousel Home Page //
