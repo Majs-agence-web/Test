@@ -1,0 +1,27 @@
+{
+  "name": "casa-benfica-tourcoing",
+  "version": "1.0.0",
+  "description": "<!-- Test 2-->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJerome/Casa-Benfica-Tourcoing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LJerome/Casa-Benfica-Tourcoing/issues"
+  },
+  "homepage": "https://github.com/LJerome/Casa-Benfica-Tourcoing#readme",
+  "dependencies": {
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "mongoose": "^5.10.11"
+  }
+}
