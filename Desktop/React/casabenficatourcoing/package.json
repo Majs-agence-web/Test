@@ -23,16 +23,12 @@
     "react-scripts": "3.4.4"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
     
-  },
-  
-  "engines":{
-    "node":"12.18.3"
-  },
+  },  
 
   "eslintConfig": {
     "extends": "react-app"
